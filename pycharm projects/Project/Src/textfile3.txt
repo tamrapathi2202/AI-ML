@@ -1,0 +1,37 @@
+se es 85 er fF ee A Eee Ue UK UU UL Cee FOE ee UCUmelCUL ll
+
+General.
+
+(a) SOCP should be based on “Bolt on Container-on-Wheels” design and will be mounted on a
+vehicle chassis provided by this unit.
+
+(b) The “Container-on-Wheels” should be self-sufficient in providing Power, Communication and
+Surveillance infrastructure for the command post and its surrounding area. For the comfort of
+operators, SOCP will be fully Air Conditioned (Cooling & Heating) and should house ruggedized &
+shock-vibration proof racks for housing electronic & communication equipment. Operator consoles
+for the Communication & Surveillance video feed monitoring should also be ruggedized along with
+Displays. Ruggedisation should be carried out for vibrations and movement along all three axis.
+
+(c) An IP based Integrated Communication System (ICS) interfaced with various in service
+wireless Radios should be supplied, thereby providing conferencing and patching facility between
+multiple radio types or wireless frequencies along with Artificial Intelligence & Machine Learning
+
+(Al/ML) retaining inherent secrecy of these radio sets.
+
+(d) A single operator console should be able to display the Communication resources,
+surveillance video feeds and GIS map data in form of overlay and transparencies.
+
+(e) ICS and Surveillance System in SOCP should be able to communicate with the personnel
+deployed with Radio on ground, away from SOCP as well as other ICS infrastructure and be able to
+
+relay & receive data.
+
+(f) Real-time video feeds from the deployed drones and helmet mounted cameras should also
+be available. Apart from that, a wired and wireless backhaul connectivity capability should be
+
+provided.
+
+(9) Detailed specifications are covered in detail in subsequent paragraphs. However, Indicative
+list of electronic and communication items alongwith fabrication of container, installation and
+commissioning to be provided/installed by the bidder is as under:
+

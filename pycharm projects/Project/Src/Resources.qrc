@@ -1,0 +1,354 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/111212_1.jpg</file>
+    <file>icons/Add.png</file>
+    <file>icons/add-document.png</file>
+    <file>icons/add-file.png</file>
+    <file>icons/add-post.png</file>
+    <file>icons/analysis (1).png</file>
+    <file>icons/analysis.png</file>
+    <file>icons/AppLogo-platinum21x22.png</file>
+    <file>icons/bin (1).png</file>
+    <file>icons/CableLossMeasurementSetup.png</file>
+    <file>icons/Calib.png</file>
+    <file>icons/calibrate.png</file>
+    <file>icons/check-circle_focus.png</file>
+    <file>icons/checkmark.png</file>
+    <file>icons/check-square_focus.png</file>
+    <file>icons/cleaning.png</file>
+    <file>icons/Close.png</file>
+    <file>icons/cloud.png</file>
+    <file>icons/computer-icons-floppy-disk-download-save-button-removebg-preview.png</file>
+    <file>icons/Config.png</file>
+    <file>icons/ConfigTransparent.png</file>
+    <file>icons/Control Panel.png</file>
+    <file>icons/copy_focus.png</file>
+    <file>icons/cross.png</file>
+    <file>icons/csv.png</file>
+    <file>icons/dashboard.png</file>
+    <file>icons/data-collection (1).png</file>
+    <file>icons/data-collection.png</file>
+    <file>icons/delete (2).png</file>
+    <file>icons/dlrl-logo.png</file>
+    <file>icons/document.png</file>
+    <file>icons/edit.png</file>
+    <file>icons/edit_disabled.png</file>
+    <file>icons/edit_focus.png</file>
+    <file>icons/empty screen.png</file>
+    <file>icons/excel.png</file>
+    <file>icons/Exit.png</file>
+    <file>icons/Export.png</file>
+    <file>icons/eye.png</file>
+    <file>icons/eye_disabled.png</file>
+    <file>icons/eye_focus.png</file>
+    <file>icons/eye-off.png</file>
+    <file>icons/eye-off_disabled.png</file>
+    <file>icons/eye-off_focus.png</file>
+    <file>icons/file (1).png</file>
+    <file>icons/filter.png</file>
+    <file>icons/folder (1).png</file>
+    <file>icons/graph.png</file>
+    <file>icons/Healthgreen.png</file>
+    <file>icons/history (1).png</file>
+    <file>icons/history.png</file>
+    <file>icons/icons8-access-94.png</file>
+    <file>icons/icons8-add-100.png</file>
+    <file>icons/icons8-create-64.png</file>
+    <file>icons/icons8-create-100.png</file>
+    <file>icons/icons8-help-50.png</file>
+    <file>icons/icons8-hub-50.png</file>
+    <file>icons/icons8-import-64.png</file>
+    <file>icons/icons8-load-48.png</file>
+    <file>icons/icons8-load-64 (1).png</file>
+    <file>icons/icons8-load-from-file-48.png</file>
+    <file>icons/icons8-menu-50.png</file>
+    <file>icons/icons8-modify-64.png</file>
+    <file>icons/icons8-read-64.png</file>
+    <file>icons/icons8-save-94.png</file>
+    <file>icons/icons8-save-as-48.png</file>
+    <file>icons/icons8-send-file-64.png</file>
+    <file>icons/icons8-switch-64.png</file>
+    <file>icons/icons8-update-64.png</file>
+    <file>icons/icons8-user-48.png</file>
+    <file>icons/icons8-user-50.png</file>
+    <file>icons/icons8-user-management-53.png</file>
+    <file>icons/icons8-verify-48.png</file>
+    <file>icons/icons8-view-30.png</file>
+    <file>icons/icons8-view-48.png</file>
+    <file>icons/icons8-view-details-64.png</file>
+    <file>icons/icons8-windows-client-48.png</file>
+    <file>icons/Import.png</file>
+    <file>icons/InjectionModeMeasurementSetup.png</file>
+    <file>icons/InjectionModeSetupdigram_With_PD.jpeg</file>
+    <file>icons/InjectionModeSetupdigram_Without_PD.jpeg</file>
+    <file>icons/INPUT (2).png</file>
+    <file>icons/input.png</file>
+    <file>icons/inputdata.png</file>
+    <file>icons/input-data.png</file>
+    <file>icons/Left-arrow.png</file>
+    <file>icons/log-file.png</file>
+    <file>icons/Login.png</file>
+    <file>icons/log-in_focus.png</file>
+    <file>icons/Login1.png</file>
+    <file>icons/Logout.png</file>
+    <file>icons/log-out.png</file>
+    <file>icons/log-out_disabled.png</file>
+    <file>icons/log-out_focus.png</file>
+    <file>icons/Maximize.png</file>
+    <file>icons/Minimise.jpg</file>
+    <file>icons/minusDelete.png</file>
+    <file>icons/monitoring.png</file>
+    <file>icons/network.png</file>
+    <file>icons/new-account (1).png</file>
+    <file>icons/new-account.png</file>
+    <file>icons/new-document.png</file>
+    <file>icons/new-file.png</file>
+    <file>icons/next (2).png</file>
+    <file>icons/open_folder.png</file>
+    <file>icons/open-folder.png</file>
+    <file>icons/PathLossMeas_RadMode_withoutPA.png</file>
+    <file>icons/PathLossMeas_RadMode_withPA.png</file>
+    <file>icons/pause.png</file>
+    <file>icons/pause-button.png</file>
+    <file>icons/periscope.png</file>
+    <file>icons/PING.png</file>
+    <file>icons/Ping1.png</file>
+    <file>icons/Ping2.png</file>
+    <file>icons/PlatinumLogo.ico</file>
+    <file>icons/play (2).png</file>
+    <file>icons/Play.jpg</file>
+    <file>icons/play.png</file>
+    <file>icons/play1.png</file>
+    <file>icons/printer (1).png</file>
+    <file>icons/printer.png</file>
+    <file>icons/RadiationSetupdigram_With_PA.jpeg</file>
+    <file>icons/RadiationSetupdigram_Without_PA.jpeg</file>
+    <file>icons/Refresh.png</file>
+    <file>icons/remove.png</file>
+    <file>icons/Reports.png</file>
+    <file>icons/ReportSearch1.png</file>
+    <file>icons/reset-password.png</file>
+    <file>icons/resize.png</file>
+    <file>icons/Resize1.png</file>
+    <file>icons/Rfsignalgenerator.jpg</file>
+    <file>icons/right-arrow.png</file>
+    <file>icons/right-left.png</file>
+    <file>icons/right-left-arrow.png</file>
+    <file>icons/RWR.jpg</file>
+    <file>icons/server.png</file>
+    <file>icons/Settings.png</file>
+    <file>icons/Setupicon1.png</file>
+    <file>icons/skyblue screen.png</file>
+    <file>icons/start-button.png</file>
+    <file>icons/Step.png</file>
+    <file>icons/step-4-16.png</file>
+    <file>icons/step-4-256.png</file>
+    <file>icons/stepmode.png</file>
+    <file>icons/STOP (2).png</file>
+    <file>icons/Stop black.png</file>
+    <file>icons/Stop.png</file>
+    <file>icons/Stop_Black.png</file>
+    <file>icons/stop-button.png</file>
+    <file>icons/submarine.jpg</file>
+    <file>icons/submarine1.jpg</file>
+    <file>icons/Submarine22.jpg</file>
+    <file>icons/SubmarineBlue10.jpg</file>
+    <file>icons/threshold.webp</file>
+    <file>icons/trash (1).png</file>
+    <file>icons/trash (2).png</file>
+    <file>icons/user.png</file>
+    <file>icons/user_disabled.png</file>
+    <file>icons/user_focus.png</file>
+    <file>icons/user-check.png</file>
+    <file>icons/user-check_disabled.png</file>
+    <file>icons/user-check_focus.png</file>
+    <file>icons/user-logout.png</file>
+    <file>icons/user-minus.png</file>
+    <file>icons/user-minus_disabled.png</file>
+    <file>icons/user-minus_focus.png</file>
+    <file>icons/user-plus.png</file>
+    <file>icons/user-plus_disabled.png</file>
+    <file>icons/user-plus_focus.png</file>
+    <file>icons/users.png</file>
+    <file>icons/users_disabled.png</file>
+    <file>icons/users_focus.png</file>
+    <file>icons/user-x.png</file>
+    <file>icons/user-x_disabled.png</file>
+    <file>icons/user-x_focus.png</file>
+    <file>icons/Viewhidden.png</file>
+    <file>icons/ViewLog.webp</file>
+    <file>icons/ViewReport.jpg</file>
+    <file>icons/Warship.jpg</file>
+    <file>icons/wave-graph.png</file>
+    <file>icons/web.png</file>
+    <file>Resource/icons/periscope.png</file>
+    <file>Resource/icons/minusDelete.png</file>
+    <file>Resource/icons/CableLossMeasurementSetup.png</file>
+    <file>Resource/icons/next (2).png</file>
+    <file>Resource/icons/open_folder.png</file>
+    <file>Resource/icons/CableLossMeasurementSetup.png</file>
+    <file>Resource/icons/dashboard.png</file>
+    <file>Resource/icons/Setupicon1.png</file>
+    <file>Resource/icons/right-left.png</file>
+    <file>Resource/icons/right-left-arrow.png</file>
+    <file>Resource/icons/1920submarine.jpg</file>
+    <file>Resource/icons/111212_1.jpg</file>
+    <file>Resource/icons/Add.png</file>
+    <file>Resource/icons/add-document.png</file>
+    <file>Resource/icons/add-file.png</file>
+    <file>Resource/icons/add-post.png</file>
+    <file>Resource/icons/analysis (1).png</file>
+    <file>Resource/icons/analysis.png</file>
+    <file>Resource/icons/AppLogo-platinum21x22.png</file>
+    <file>Resource/icons/bin (1).png</file>
+    <file>Resource/icons/Calib.png</file>
+    <file>Resource/icons/calibrate.png</file>
+    <file>Resource/icons/check-circle_focus.png</file>
+    <file>Resource/icons/checkmark.png</file>
+    <file>Resource/icons/check-square_focus.png</file>
+    <file>Resource/icons/cleaning.png</file>
+    <file>Resource/icons/Close.png</file>
+    <file>Resource/icons/cloud.png</file>
+    <file>Resource/icons/computer-icons-floppy-disk-download-save-button-removebg-preview.png</file>
+    <file>Resource/icons/Config.png</file>
+    <file>Resource/icons/ConfigTransparent.png</file>
+    <file>Resource/icons/Control Panel.png</file>
+    <file>Resource/icons/copy_focus.png</file>
+    <file>Resource/icons/cross.png</file>
+    <file>Resource/icons/csv.png</file>
+    <file>Resource/icons/data-collection (1).png</file>
+    <file>Resource/icons/data-collection.png</file>
+    <file>Resource/icons/delete (2).png</file>
+    <file>Resource/icons/dlrl-logo.png</file>
+    <file>Resource/icons/document.png</file>
+    <file>Resource/icons/edit.png</file>
+    <file>Resource/icons/edit_disabled.png</file>
+    <file>Resource/icons/edit_focus.png</file>
+    <file>Resource/icons/empty screen.png</file>
+    <file>Resource/icons/excel.png</file>
+    <file>Resource/icons/Exit.png</file>
+    <file>Resource/icons/Export.png</file>
+    <file>Resource/icons/eye.png</file>
+    <file>Resource/icons/eye_disabled.png</file>
+    <file>Resource/icons/eye_focus.png</file>
+    <file>Resource/icons/eye-off.png</file>
+    <file>Resource/icons/eye-off_disabled.png</file>
+    <file>Resource/icons/eye-off_focus.png</file>
+    <file>Resource/icons/file (1).png</file>
+    <file>Resource/icons/filter.png</file>
+    <file>Resource/icons/folder (1).png</file>
+    <file>Resource/icons/graph.png</file>
+    <file>Resource/icons/Healthgreen.png</file>
+    <file>Resource/icons/history (1).png</file>
+    <file>Resource/icons/history.png</file>
+    <file>Resource/icons/icons8-access-94.png</file>
+    <file>Resource/icons/icons8-add-100.png</file>
+    <file>Resource/icons/icons8-create-64.png</file>
+    <file>Resource/icons/icons8-create-100.png</file>
+    <file>Resource/icons/icons8-help-50.png</file>
+    <file>Resource/icons/icons8-hub-50.png</file>
+    <file>Resource/icons/icons8-import-64.png</file>
+    <file>Resource/icons/icons8-load-48.png</file>
+    <file>Resource/icons/icons8-load-64 (1).png</file>
+    <file>Resource/icons/icons8-load-from-file-48.png</file>
+    <file>Resource/icons/icons8-menu-50.png</file>
+    <file>Resource/icons/icons8-modify-64.png</file>
+    <file>Resource/icons/icons8-read-64.png</file>
+    <file>Resource/icons/icons8-save-94.png</file>
+    <file>Resource/icons/icons8-save-as-48.png</file>
+    <file>Resource/icons/icons8-send-file-64.png</file>
+    <file>Resource/icons/icons8-switch-64.png</file>
+    <file>Resource/icons/icons8-update-64.png</file>
+    <file>Resource/icons/icons8-user-48.png</file>
+    <file>Resource/icons/icons8-user-50.png</file>
+    <file>Resource/icons/icons8-user-management-53.png</file>
+    <file>Resource/icons/icons8-verify-48.png</file>
+    <file>Resource/icons/icons8-view-30.png</file>
+    <file>Resource/icons/icons8-view-48.png</file>
+    <file>Resource/icons/icons8-view-details-64.png</file>
+    <file>Resource/icons/icons8-windows-client-48.png</file>
+    <file>Resource/icons/Import.png</file>
+    <file>Resource/icons/INPUT (2).png</file>
+    <file>Resource/icons/input.png</file>
+    <file>Resource/icons/inputdata.png</file>
+    <file>Resource/icons/input-data.png</file>
+    <file>Resource/icons/Left-arrow.png</file>
+    <file>Resource/icons/log-file.png</file>
+    <file>Resource/icons/Login.png</file>
+    <file>Resource/icons/log-in_focus.png</file>
+    <file>Resource/icons/Login1.png</file>
+    <file>Resource/icons/Logout.png</file>
+    <file>Resource/icons/log-out.png</file>
+    <file>Resource/icons/log-out_disabled.png</file>
+    <file>Resource/icons/log-out_focus.png</file>
+    <file>Resource/icons/Maximize.png</file>
+    <file>Resource/icons/Minimise.jpg</file>
+    <file>Resource/icons/monitoring.png</file>
+    <file>Resource/icons/network.png</file>
+    <file>Resource/icons/new-account (1).png</file>
+    <file>Resource/icons/new-account.png</file>
+    <file>Resource/icons/new-document.png</file>
+    <file>Resource/icons/new-file.png</file>
+    <file>Resource/icons/open-folder.png</file>
+    <file>Resource/icons/pause.png</file>
+    <file>Resource/icons/pause-button.png</file>
+    <file>Resource/icons/PlatinumLogo.ico</file>
+    <file>Resource/icons/play (2).png</file>
+    <file>Resource/icons/Play.jpg</file>
+    <file>Resource/icons/play.png</file>
+    <file>Resource/icons/play1.png</file>
+    <file>Resource/icons/printer (1).png</file>
+    <file>Resource/icons/printer.png</file>
+    <file>Resource/icons/Refresh.png</file>
+    <file>Resource/icons/Reports.png</file>
+    <file>Resource/icons/ReportSearch1.png</file>
+    <file>Resource/icons/reset-password.png</file>
+    <file>Resource/icons/resize.png</file>
+    <file>Resource/icons/Resize1.png</file>
+    <file>Resource/icons/Rfsignalgenerator.jpg</file>
+    <file>Resource/icons/right-arrow.png</file>
+    <file>Resource/icons/RWR.jpg</file>
+    <file>Resource/icons/server.png</file>
+    <file>Resource/icons/Settings.png</file>
+    <file>Resource/icons/skyblue screen.png</file>
+    <file>Resource/icons/start-button.png</file>
+    <file>Resource/icons/Step.png</file>
+    <file>Resource/icons/step-4-16.png</file>
+    <file>Resource/icons/step-4-256.png</file>
+    <file>Resource/icons/stepmode.png</file>
+    <file>Resource/icons/STOP (2).png</file>
+    <file>Resource/icons/Stop black.png</file>
+    <file>Resource/icons/Stop.png</file>
+    <file>Resource/icons/Stop_Black.png</file>
+    <file>Resource/icons/stop-button.png</file>
+    <file>Resource/icons/submarine.jpg</file>
+    <file>Resource/icons/submarine1.jpg</file>
+    <file>Resource/icons/Submarine22.jpg</file>
+    <file>Resource/icons/SubmarineBlue10.jpg</file>
+    <file>Resource/icons/trash (1).png</file>
+    <file>Resource/icons/trash (2).png</file>
+    <file>Resource/icons/user.png</file>
+    <file>Resource/icons/user_disabled.png</file>
+    <file>Resource/icons/user_focus.png</file>
+    <file>Resource/icons/user-check.png</file>
+    <file>Resource/icons/user-check_disabled.png</file>
+    <file>Resource/icons/user-check_focus.png</file>
+    <file>Resource/icons/user-logout.png</file>
+    <file>Resource/icons/user-minus.png</file>
+    <file>Resource/icons/user-minus_disabled.png</file>
+    <file>Resource/icons/user-minus_focus.png</file>
+    <file>Resource/icons/user-plus.png</file>
+    <file>Resource/icons/user-plus_disabled.png</file>
+    <file>Resource/icons/user-plus_focus.png</file>
+    <file>Resource/icons/users.png</file>
+    <file>Resource/icons/users_disabled.png</file>
+    <file>Resource/icons/users_focus.png</file>
+    <file>Resource/icons/user-x.png</file>
+    <file>Resource/icons/user-x_disabled.png</file>
+    <file>Resource/icons/user-x_focus.png</file>
+    <file>Resource/icons/ViewReport.jpg</file>
+    <file>Resource/icons/Warship.jpg</file>
+    <file>Resource/icons/wave-graph.png</file>
+    <file>Resource/icons/web.png</file>
+  </qresource>
+</RCC>
