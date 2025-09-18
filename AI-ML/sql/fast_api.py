@@ -5,13 +5,14 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 
 # Load CSVs
-students_df = pd.read_csv("./students.csv")
-courses_df = pd.read_csv("./courses.csv")
-enrollments_df = pd.read_csv("./enrollments.csv")
+students_df = pd.read_csv("students.csv")
+courses_df = pd.read_csv("courses.csv")
+enrollments_df = pd.read_csv("enrollments.csv")
 
 @app.get("/")
 def home():
     return {"message": "Welcome! Use /students, /courses, or /enrollments"}
+
 #1.getting all data
 
 @app.get("/students")
@@ -25,6 +26,7 @@ def get_courses():
 @app.get("/enrollments")
 def get_enrollments():
     return enrollments_df.to_dict(orient="records")
+
 #4. Fetch all students in tabular format
 
 @app.get("/students_table", response_class=HTMLResponse)
@@ -42,63 +44,55 @@ def get_students_table():
     </html>
     """
 
-  
-    
-# 8. Fetch all students enrolled in a particular course (given course_id as input).
+#5.  Fetch all students in a course
+@app.get("/students_in_course/{course_id}", response_class=HTMLResponse)
+def get_students_in_course(course_id: int):
+    # Join enrollments with students
+    merged_df = enrollments_df.merge(students_df, on="student_id")
+    filtered_df = merged_df[merged_df["course_id"] == course_id]
 
-students_df["student_id"] = students_df["student_id"].astype(str)
-enrollments_df["student_id"] = enrollments_df["student_id"].astype(str)
-enrollments_df["course_id"] = enrollments_df["course_id"].astype(str)
+    if filtered_df.empty:
+        return f"<h3>No students found for course_id {course_id}</h3>"
 
+    html_table = filtered_df[["student_id", "name", "age", "grade", "email"]].to_html(index=False)
 
-@app.get("/students_in_course")
-def students_in_course(course_id: str):
-    filtered = enrollments_df[enrollments_df["course_id"] == course_id]
-    if filtered.empty:
-        return {"message": f"No students enrolled in course {course_id}"}
-    result = pd.merge(filtered, students_df, on="student_id", how="left")
-    return result.to_dict(orient="records")
+    # Get course name for heading
+    course_name = courses_df[courses_df["course_id"] == course_id]["course_name"].values
+    course_display = course_name[0] if len(course_name) > 0 else f"Course {course_id}"
 
+    return f"""
+    <html>
+        <head><title>Students in {course_display}</title></head>
+        <body>
+            <h2>Students enrolled in {course_display} (Course ID: {course_id})</h2>
+            {html_table}
+        </body>
+    </html>
+    """
 
 #9. students not enrolled in any course
-from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
-import pandas as pd
-
-app = FastAPI()
-
-# Load the datasets (adjust the path if needed)
-students_df = pd.read_csv("students.csv")         # Example: Contains student_id, student_name, etc.
-enrollments_df = pd.read_csv("enrollments.csv")   # Example: Contains student_id, course_id, etc.
-
-@app.get("/students_in_course", response_class=HTMLResponse)
+@app.get("/students_not_enrolled", response_class=HTMLResponse)
 def get_students_not_enrolled():
-    try:
-        # Find student_ids in enrollments
-        enrolled_ids = set(enrollments_df["student_id"].unique())
+    # Find student_ids in enrollments
+    enrolled_ids = set(enrollments_df["student_id"].unique())
 
-        # Filter students not in enrolled_ids
-        not_enrolled_df = students_df[~students_df["student_id"].isin(enrolled_ids)]
+    # Filter students not in enrolled_ids
+    not_enrolled_df = students_df[~students_df["student_id"].isin(enrolled_ids)]
 
-        if not_enrolled_df.empty:
-            return "<h3>All students are enrolled in at least one course.</h3>"
+    if not_enrolled_df.empty:
+        return "<h3>All students are enrolled in at least one course.</h3>"
 
-        html_table = not_enrolled_df.to_html(index=False)
+    html_table = not_enrolled_df.to_html(index=False)
 
-        return f"""
-        <html>
-            <head><title>Students Not Enrolled</title></head>
-            <body>
-                <h2>Students not enrolled in any course</h2>
-                {html_table}
-            </body>
-        </html>
-        """
-    except Exception as e:
-        return HTMLResponse(
-            content=f"<h3>Internal Server Error: {str(e)}</h3>",
-            status_code=500
-        )
+    return f"""
+    <html>
+        <head><title>Students Not Enrolled</title></head>
+        <body>
+            <h2>Students not enrolled in any course</h2>
+            {html_table}
+        </body>
+    </html>
+    """
 
 #10. INNER JOIN: Students + Courses
 @app.get("/students_courses", response_class=HTMLResponse)
@@ -126,6 +120,7 @@ def get_students_courses():
         </body>
     </html>
     """
+
 #11. Search student by name
 @app.get("/search_student/{student_name}", response_class=HTMLResponse)
 def search_student(student_name: str):
@@ -146,6 +141,7 @@ def search_student(student_name: str):
         </body>
     </html>
     """
+
 #13. Count students per course
 @app.get("/students_per_course", response_class=HTMLResponse)
 def students_per_course():
@@ -169,6 +165,7 @@ def students_per_course():
         </body>
     </html>
     """
+
 #14. Fetch students by course name
 @app.get("/students_by_course/{course_name}", response_class=HTMLResponse)
 def students_by_course(course_name: str):
@@ -203,8 +200,4 @@ def students_by_course(course_name: str):
             {html_table}
         </body>
     </html>
-    """                   #
-
-
-
-
+    """
