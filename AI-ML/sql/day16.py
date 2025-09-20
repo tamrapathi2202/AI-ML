@@ -433,3 +433,4 @@ def get_secure_students():
 def get_secure_databases():
     """Return all MongoDB databases (only accessible with API key)"""
     return {"databases": client.list_database_names()}
+    

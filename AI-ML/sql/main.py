@@ -13,7 +13,7 @@ class Student(BaseModel):
 
 # Create an app object
 app = FastAPI() 
-)
+
 
 # Define a GET endpoint at "/"
 @app.get("/")  # decorator defines a route
